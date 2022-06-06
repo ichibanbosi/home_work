@@ -8,4 +8,4 @@ RUN cp /boxfuse-sample-java-war-hello/target/hello-1.0.war /var/lib/tomcat9/weba
 RUN cp -R /boxfuse-sample-java-war-hello/target/hello-1.0 /var/lib/tomcat9/webapps/
 RUN chown -R tomcat:tomcat /var/lib/tomcat9/webapps/hello-1.0
 #CMD ["java", "-jar", "hello-1.0.war"]
-#CMD /bin/bash
+CMD /bin/bash
